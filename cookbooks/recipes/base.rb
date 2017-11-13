@@ -1,0 +1,7 @@
+include_recipe 'apt_get'
+include_recipe 'user'
+include_recipe 'www'
+# include_recipe 'rtn_rbenv::user'
+include_recipe 'rtn_rbenv::system'
+include_recipe 'mysql'
+include_recipe 'nginx'
